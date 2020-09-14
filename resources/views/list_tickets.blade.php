@@ -27,5 +27,5 @@
         @endforeach
     </tbody>
 </table>
-{{ $tickets->appends(request()->except('page'))->links() }}
+{{ count($tickets) > 1 ? $tickets->appends(request()->except('page'))->links() : ''}}
 @stop
