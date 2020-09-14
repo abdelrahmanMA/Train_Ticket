@@ -1,0 +1,26 @@
+body{
+    background: #eaeaea !important;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.form-wrapper{
+    background-color: #fff;
+    padding: 60px;
+    box-shadow: 10px 10px 10px;
+    min-width: 600px;
+    min-height: 230px;
+}
+.from_date{
+    padding-left: 0 !important;
+}
+.to_date{
+    padding-right: 0 !important;
+}
+.button-wrapper button{
+    width: 200px;
+    margin: 20px auto 0;
+}
